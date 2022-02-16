@@ -1,0 +1,431 @@
+* {
+    font-family: 'Cairo', sans-serif;
+    /* padding-bottom: 10px;
+    padding-top: 10px; */
+}
+
+/* start header */
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+header .buton {
+    margin-top: auto;
+    margin-bottom: auto;
+    /* padding-top: 60px; */
+    /* display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between; */
+}
+
+.buton button {
+    width: 100px;
+    height: 35px;
+    background: transparent;
+    color: blue;
+    transition: 1s;
+    border: 1px solid blue;
+}
+
+.buton button:hover {
+    background-color: #F4A825;
+    color: black;
+    border: 1px solid #F4A825;
+}
+
+header .logo img {
+    width: 70px;
+    padding-right: 30px;
+    /* margin-left: 30px; */
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+header .navbar ul li {
+    padding-right: 20px;
+    color: black;
+    opacity: 1 !important;
+    font-weight: bold;
+
+}
+
+header .navbar ul li a:hover {
+    color: #F4A825 !important;
+}
+
+.emp {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main .img img {
+    width: 100%;
+}
+
+.main .taxt {
+    padding-top: 8%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+}
+
+.main .taxt h1 {
+    margin-bottom: 25px;
+    font-size: 90px;
+    font-weight: bold;
+    color: #F4A825;
+}
+
+.main .taxt h1 span {
+    color: #3485B9;
+}
+
+.main .taxt p {
+    text-align: end;
+}
+
+.main .taxt button {
+    width: 120px;
+
+}
+.main .taxt button i {
+    font-size: 15px;
+}
+
+/* end header */
+
+/* الاخبار */
+
+main {
+    background-color: #F8F8F8;
+    position: relative;
+
+}
+
+.name {
+    text-align: end;
+    padding-top: 40px;
+}
+
+.name::before {
+    content: "";
+    width: 3px;
+    height: 50px;
+    background-color: #3485B9;
+    position: absolute;
+}
+
+.name h3 {
+    padding-right: 10px;
+    font-weight: bold;
+    /* margin-top: auto;
+    margin-bottom: auto; */
+
+}
+
+main .card {
+    background-color: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+main .card .card1 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    /* width: 360px; */
+    /* border: solid 1px red; */
+}
+
+main .card .card1 img {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100%;
+}
+
+main .card .card1 p {
+    text-align: end;
+    padding-top: 5px;
+    width: 100%;
+}
+
+.icon {
+    display: flex;
+    padding-top: 25px;
+    text-align: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.icon .right i  {
+    padding-top: 2px;
+    width: 30px;
+    height: 20px;
+    border-radius: 5px;
+ background-color: #F4A825;
+ color: white;
+}
+.icon .left i  {
+    padding-top: 2px;
+    width: 30px;
+    height: 20px;
+    border-radius: 5px;
+ background-color:#ffffff;
+ color: black;
+}
+
+/* خدمتنا  */
+.serv {
+display: flex;
+flex-wrap: wrap;
+}
+.serv .cards {
+    /* background-color: white; */
+    text-align: center;
+}
+.serv .cards i {
+    
+    font-size: 60px;
+    padding-bottom: 20px;
+    color: #F4A825;
+}
+
+.serv .cards h5{
+    padding-bottom: 20px;
+    font-weight: bold;
+    color: #F4A825;
+}
+
+.serv .cards p{
+
+}
+
+main section {
+    background-color: #F4A825;
+    opacity: 2;
+    width:100%;
+    height: 100%;
+}
+
+main .test {
+    display: flex; 
+    flex-wrap: wrap;
+    
+}
+main .test img {
+    max-width: 90%;
+    /* padding-top: 20px; */
+    margin-top: -40px;
+}
+
+main .test .text {
+    padding-top: 90px;
+    text-align: end;
+    padding-right: 50px;
+}
+main .test .text  h3 {
+    color: #030231;
+    font-weight:400;
+    padding-bottom: 20px;
+}
+
+main .test .text p {
+
+}
+
+
+main .test .text button {
+background-color: #030231;
+color: #ffffff;
+border: #030231;
+width: 125px;
+height: 30px;
+}
+/* قطاعتنا */
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.card .card2 {
+text-align: center;
+}
+
+.card .card2 img {
+    width: 250px;
+    text-align: center;
+    padding-left: 20px;
+}
+/* .card .card2 .sp img {
+    width: 350px;
+} */
+
+
+.card .card2 h6 {
+    background-color: #F4A825;
+    color: #030231;
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    padding-top: 8px;
+}
+
+/* لندوات */
+
+.container .card2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container .card2 .card1 {
+    text-align: end;
+    padding-top: 10px;
+}
+
+.container .card2 .card1 img {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 100%;
+} 
+
+.container .card2 .card1 button {
+    background-color: #F4A825;
+    border-radius: 6px;
+    width: 120px;
+    height: 35px;
+    font-size: 13px;
+}
+
+/* عملائنا المميزون */
+
+.cus {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.cus img {
+    /* width: 19%; */
+}
+
+.maps {
+    display: flex;
+    flex-wrap: wrap;
+}
+.maps .mm img {
+    max-width: 100%;
+}
+.maps .form form {
+    text-align: end;
+    
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+}
+
+form .main-input {
+    padding: 5px;
+    display: block;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+    width: 100%;
+    text-align: end;
+}
+
+form .main-input:focus {
+    outline: none;
+    background-color: transparent;
+}
+
+/* form textarea.main-input {
+    height: 200px;
+    
+} */
+
+form input[type="submit"] {
+
+    background-color: #F4A825;
+    border: #F4A825;
+    border-radius: 6px;
+    width: 120px;
+    height: 35px;
+    font-size: 13px;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #3485B9;
+    padding: 10px;
+}
+footer ul li {
+    list-style: none;
+    padding: 10px;
+    font-size: 15px;
+}
+.footer i {
+    color: #F4A825;
+    font-size: 15px;
+    padding: 10px;
+}
+.footer .one p {
+    padding: 20px;
+}
+
+.footer .two {
+    padding: 20px;
+}
+
+.footer .three {
+    padding: 20px;
+}
+.footer .three li {
+    font-size: 15px;
+}
+.footer .four {
+    padding: 20px;
+    text-align: center;
+}
+.footer .four input {
+    background-color: white;
+    border: white;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+}
+
+.footer .four button {
+    background-color: #F4A825;
+    color: black;
+    border: #F4A825;
+    border-radius: 10px;
+    margin: 10px;
+    width: 148px;
+}
+
+footer p {
+    text-align: center;
+}
